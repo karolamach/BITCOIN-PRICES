@@ -1,0 +1,15 @@
+.mobile-first-component {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 992px) {
+     .mobile-first-component {
+        width: 50%;
+     }
+  }
+  
+  @media screen and (min-width: 1200px) {
+     .mobile-first-component {
+        width: 33%;
+     }
+  }

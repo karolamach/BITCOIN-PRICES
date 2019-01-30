@@ -31,7 +31,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background-image: url(../img/back.jpg);
+    background-image: url(../img/6--848187-Hand\ and\ coins\,\ isolated\ on\ white\ background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: -1;
@@ -44,7 +44,7 @@ body {
 
 h3{
     font-family: 'Lucida Sans', cursive;
-    color:white;
+    color:black;
 }
 
 #main .inner-main {
@@ -62,8 +62,34 @@ h3{
 }
 
 
-#main .inner-main .fa-minus-square {
-    color: yellow;
+#main .inner-main .fa-minus {
+    color: blue;
 }
 
 
+.coin{
+animation: spin 5s infinite linear;
+width:50px;
+height: 50px;
+}
+
+@keyframes spin
+{
+  100%
+  {
+      transform: rotate(360deg);
+  }
+}
+
+
+footer {
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:pink;
+    color: skyblue;
+
+    text-align: center;
+}

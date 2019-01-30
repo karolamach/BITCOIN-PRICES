@@ -18,7 +18,7 @@ $(document).ready(function () {
             } else if (buyPrice < PLNbuy + PLNsym) {
                 $('#buy-arrow').removeClass().addClass('fa fa-arrow-up');
             } else {
-                $('#buy-arrow').removeClass().addClass('fa fa-minus-square');
+                $('#buy-arrow').removeClass().addClass('fa fa-minus');
             }
 
             if (sellPrice > PLNsell + PLNsym) {
@@ -26,7 +26,7 @@ $(document).ready(function () {
             } else if (sellPrice < PLNsell + PLNsym) {
                 $('#sell-arrow').removeClass().addClass('fa fa-arrow-up');
             } else {
-                $('#sell-arrow').removeClass().addClass('fa fa-minus-square');
+                $('#sell-arrow').removeClass().addClass('fa fa-minus');
             }
 
         })
